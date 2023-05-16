@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicalInterface>
+  <P Name="NumRootInports">0</P>
+  <P Name="NumRootOutports">0</P>
+  <P Name="ParameterArgumentNames"/>
+  <P Name="NumModelReferences">0</P>
+  <P Name="NumTestPointedSignals">0</P>
+  <P Name="NumProvidedFunctions">0</P>
+  <P Name="NumRequiredFunctions">0</P>
+  <P Name="NumResetEvents">0</P>
+  <P Name="HasInitializeEvent">0</P>
+  <P Name="HasTerminateEvent">0</P>
+  <P Name="PreCompExecutionDomainType">Unset</P>
+  <P Name="UseModelRefSolver">0</P>
+  <P Name="SolverName">VariableStepAuto</P>
+  <P Name="IsExportFunctionModel">0</P>
+  <P Name="SimulinkSubDomainType">Simulink</P>
+  <P Name="NumParameterArguments">0</P>
+  <P Name="NumExternalFileReferences">14</P>
+  <ExternalFileReference>
+    <P Name="Reference">spsBatteryLib/Battery</P>
+    <P Name="Path">$bdroot/Battery</P>
+    <P Name="SID">14</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsDCVoltageSourceLib/DC Voltage Source</P>
+    <P Name="Path">$bdroot/DC Voltage Source1</P>
+    <P Name="SID">6</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsIGBTDiodeLib/IGBT//Diode</P>
+    <P Name="Path">$bdroot/IGBT//Diode</P>
+    <P Name="SID">9</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsIGBTDiodeLib/IGBT//Diode</P>
+    <P Name="Path">$bdroot/IGBT//Diode1</P>
+    <P Name="SID">11</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsIdealSwitchLib/Ideal Switch</P>
+    <P Name="Path">$bdroot/Ideal Switch</P>
+    <P Name="SID">7</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">slpidlib/PID Controller</P>
+    <P Name="Path">$bdroot/PID Controller</P>
+    <P Name="SID">29</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">slpidlib/PID Controller</P>
+    <P Name="Path">$bdroot/PID Controller1</P>
+    <P Name="SID">38</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">slpidlib/PID Controller</P>
+    <P Name="Path">$bdroot/PID Controller2</P>
+    <P Name="SID">43</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">simulink/Sources/Repeating
+Sequence</P>
+    <P Name="Path">$bdroot/Repeating Sequence</P>
+    <P Name="SID">63</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsSeriesRLCBranchLib/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch</P>
+    <P Name="SID">8</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsSeriesRLCBranchLib/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch1</P>
+    <P Name="SID">10</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsSeriesRLCBranchLib/Series RLC Branch</P>
+    <P Name="Path">$bdroot/Series RLC Branch2</P>
+    <P Name="SID">13</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsVoltageMeasurementLib/Voltage Measurement</P>
+    <P Name="Path">$bdroot/Voltage Measurement</P>
+    <P Name="SID">46</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">sps_lib/powergui</P>
+    <P Name="Path">$bdroot/powergui</P>
+    <P Name="SID">61</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <P Name="OrderedModelArguments">1</P>
+</GraphicalInterface>
